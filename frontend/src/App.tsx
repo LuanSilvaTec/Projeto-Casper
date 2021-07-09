@@ -12,8 +12,8 @@ export class PrivateRoute extends Route<PrivateRouteProps> {
   render() {
       return (
           <Route render={(props: RouteComponentProps) => {
-              const res=this.props.isAuthenticated
-              
+              //const res=this.props.isAuthenticated
+              const res=localStorage.getItem('token')
               console.log(res)
               if(!res) {
                   return <Redirect to='/' />

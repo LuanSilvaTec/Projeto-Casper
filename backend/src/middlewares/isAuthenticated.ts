@@ -10,6 +10,7 @@ export default function isAuthenticated(
 ) {
 	try {
 		const authHeader=request.headers.authorization
+		//console.log(authHeader)
 		const [type, token] = authHeader.split(' ');
 		if (!token) {
 			return response.status(401).json({message: 'JWT Token is missing.' });

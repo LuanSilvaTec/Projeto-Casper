@@ -1,0 +1,43 @@
+#page-painel{
+    display:flex;
+    flex-direction:column;
+}
+#modal{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding:2px 1em 0 1em;
+    justify-content:flex-end;
+}
+#button-modal{
+    cursor: pointer;
+    max-width:5%;
+    position: fixed;
+    bottom:10px;
+    border-radius: 30px;
+}
+#main-content{
+    background-color:aquamarine;
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    height:100%;
+}
+header{
+   width:100%;
+   background-color: aqua;
+   display:flex;
+   flex-direction:row;
+   padding:2px 1em 0 1em;
+   justify-content:space-between;
+   align-items:center;
+}
+h1{
+    max-width: 50%;
+}
+button{
+    max-width: 10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}

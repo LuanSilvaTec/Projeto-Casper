@@ -25,12 +25,12 @@ export function Login() {
             password: password
         }
         try {
-            const res = await api.post('/', user);
+            const res = await api.post('/session', user);
             const userChecked = res.data.user
             const token = res.data.token
             
             localStorage.setItem('token', token)
-            localStorage.setItem('user', userChecked)
+            //localStorage.setItem('user', userChecked)
             history.push('/painel')
         } catch (error) {
             alert('Falha no login, tente novamente.');
