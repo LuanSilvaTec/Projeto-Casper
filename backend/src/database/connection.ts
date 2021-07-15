@@ -1,14 +1,18 @@
 import knex from 'knex';
-import path from 'path';
+const config =require('../knexfile.js')
 
+const env = process.env.DB_ENV ||'development'
+/*
 const connection = knex({
-    client:'sqlite3',
-    connection:{
-        filename:path.resolve(__dirname,'database.sqlite')
-    },
+    client:'pg',
+    connection: {
+        connectionString: process.env.DATABASE_URL,
+        ssl: { rejectUnauthorized: false },
+      },
     useNullAsDefault:true,
 
-})
-
-export default connection;
+})*/
+const db= knex(config[env])
+export default db;
+//export default connection;
 

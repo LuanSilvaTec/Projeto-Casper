@@ -17,11 +17,17 @@
     border-radius: 30px;
 }
 #main-content{
-    background-color:aquamarine;
+    background-color:beige;
     display:flex;
     flex-direction:column;
     width:100%;
     height:100%;
+}
+#main-content h2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px 20px
 }
 header{
    width:100%;

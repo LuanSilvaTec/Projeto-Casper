@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "14.17.1",
+    "npm": "7.19.1"
+  },
   "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
     "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/index.ts",
     "knex:migrate": "knex migrate:latest --knexfile src/database/knexfile.ts migrate:latest",
     "knex": "./node_modules/.bin/knex --knexfile src/database/knexfile.ts"
@@ -26,7 +32,8 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "jsonwebtoken": "^8.5.1",
-    "knex": "^0.95.6",
+    "knex": "0.21.17",
+    "pg": "^8.6.0",
     "sqlite3": "^5.0.2"
   }
 }
