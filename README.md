@@ -28,7 +28,7 @@ Mini Projeto
 Neste repositório possui a versão final de cada projeto (frontend,backend e chatbot desenvolvido no âmbito do DialogFlow). Os repositórios acima são utilizados para deploy no Heroku.
 
 ## Resumo do projeto
-# Requisitos
+### Requisitos
 - [x]	Criação da página do Facebook do Casper.
 - [x]	Bot para Dialogo via mensagem privada.
 - [x]	Menu de notícias com Quick Replies.
@@ -38,3 +38,7 @@ Neste repositório possui a versão final de cada projeto (frontend,backend e ch
 - [x]	Painel de administração para cadastro das notícias.
 - [x]	Autenticação do administrador do painel.
 - [x]	CRUD das informações.
+
+### Descrição
+- A partir do painel adminstrativo, o usuário consegue cadastrar, deletar e editar notícias que serão mostradas pelo BOT Casper Lu. Apenas usuário autenticados conseguem acessar o painel ou consumirem a API (exceto para cadastro de novos usuários). Autenticação JWT implementada tanto no backend quanto no frontend. 
+- Para que o BOT Casper Lu possa ser testado, é necessário solicitar ao developer que adicione uma conta do Facebook para testes, através do Facebook Developers.
