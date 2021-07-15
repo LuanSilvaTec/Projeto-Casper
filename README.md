@@ -17,4 +17,4 @@ Mini Projeto
 
 ## Descrição do projeto
 
-- Para acessar o repositório isolado do backend, [clique aqui][https://github.com/LuanSilvaTec/projeto-casper-backend]
+- Para acessar o repositório isolado do backend, [clique aqui](https://github.com/LuanSilvaTec/projeto-casper-backend)
