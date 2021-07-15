@@ -40,5 +40,5 @@ Neste repositório possui a versão final de cada projeto (frontend,backend e ch
 - [x]	CRUD das informações.
 
 ### Descrição
-- A partir do painel adminstrativo, o usuário consegue cadastrar, deletar e editar notícias que serão mostradas pelo BOT Casper Lu. Apenas usuário autenticados conseguem acessar o painel ou consumirem a API (exceto para cadastro de novos usuários). Autenticação JWT implementada tanto no backend quanto no frontend. 
+- A partir do painel adminstrativo, o usuário consegue cadastrar, deletar e editar notícias que serão mostradas pelo BOT Casper Lu. Apenas usuários autenticados conseguem acessar o painel ou consumirem a API (exceto para cadastro de novos usuários). Autenticação JWT implementada tanto no backend quanto no frontend. 
 - Para que o BOT Casper Lu possa ser testado, é necessário solicitar ao developer que adicione uma conta do Facebook para testes, através do Facebook Developers.
