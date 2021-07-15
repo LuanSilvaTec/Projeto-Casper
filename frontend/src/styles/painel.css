@@ -24,14 +24,23 @@
     height:100%;
 }
 #main-content h2{
+    
     display:flex;
     justify-content:center;
     align-items:center;
     padding:20px 20px
 }
+#botao-excluir{
+    padding: 10px;
+}
+
+.botao:disabled{
+    background-color:gray;
+}
+
 header{
    width:100%;
-   background-color: aqua;
+   background-color: #FCD168;
    display:flex;
    flex-direction:row;
    padding:2px 1em 0 1em;

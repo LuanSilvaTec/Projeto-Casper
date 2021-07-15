@@ -1,0 +1,58 @@
+{
+  "id": "9a0a923a-6e38-48d9-adac-f2c88ade4e11",
+  "name": "noticias.famosos",
+  "auto": true,
+  "contexts": [
+    "noticias"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "noticias",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "bca3edbd-dcbe-4981-bf3c-11649ab758d6",
+          "name": "noticias",
+          "required": false,
+          "dataType": "@noticias",
+          "value": "$noticias",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Você escolheu Famosos"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

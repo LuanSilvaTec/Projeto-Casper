@@ -6,7 +6,8 @@ import api from '../services/api'
 
 
 import * as React from 'react';
-import { DataGrid, GridCellValue, GridEditCellProps, GridEditCellPropsParams } from '@material-ui/data-grid';
+import { DataGrid, GridEditCellPropsParams } from '@material-ui/data-grid';
+import { render } from '@testing-library/react';
 
 const columns = [
     { field: 'id', headerName: 'ID', width: 130 },
@@ -26,11 +27,15 @@ export function Painel() {
     const [descricao, setDescricao] = useState('')
     const [tema, setTema] = useState('')
     const [link, setLink] = useState('')
-    const [rows, setRows] = useState([])
+    let [rows, setRows] = useState([])
     const [selected, setSelected] = useState('')
-    const [rowChanged, setRowChanged] = useState({})
+    const [removeNews, setRemoveNews] = useState(0)
+    const [isDisabled, setIsDisabled] = useState(true)
+
+
+
     useEffect(() => {
-        async function teste() {
+        async function preencherTabela() {
             await api.get('/noticia', {
                 headers: {
                     Authorization: "Bearer " + localStorage.getItem('token'),
@@ -42,12 +47,29 @@ export function Painel() {
                 console.log(rows)
             })
         }
-        teste()
+        preencherTabela()
         console.log(selected)
-    }, [addNews])
+    }, [addNews, removeNews])
     function logout() {
         localStorage.removeItem('token');
         history.push('/')
+    }
+    async function handleDeleteNew() {
+        try {
+            await api.delete('/noticia/' + selected, {
+                headers: {
+                    Authorization: "Bearer " + localStorage.getItem('token'),
+                }
+            })
+            history.push('/painel');
+            setRemoveNews(+1)
+            alert('Deletado com sucesso.');
+
+
+        } catch (err) {
+            alert('Erro ao deletar a notícia, tente novamente.');
+        }
+
     }
     async function handleUpdate(data: GridEditCellPropsParams) {
         //console.log("UPDATE")
@@ -147,7 +169,14 @@ export function Painel() {
                         columns={columns}
                         pageSize={10}
                         checkboxSelection
-                        onRowSelected={(e) => setSelected(e.data.id)}
+                        onRowSelected={(e) => {
+                            setSelected(e.data.id)
+                            if(e.isSelected===true){
+                                setIsDisabled(false)
+                            }else{
+                                setIsDisabled(true)
+                            }
+                        }}
                         onEditCellChangeCommitted={event => handleUpdate(event)}
                     />
                 </div>
@@ -216,7 +245,11 @@ export function Painel() {
                         </ModalFooter>
                     </Modal>
                 </div>
-
+                <div id='botao-excluir' >
+                    <button className={'botao'} onClick={handleDeleteNew} disabled={isDisabled}>
+                        Excluir
+                    </button>
+                </div>
             </div>
         </div>
     )

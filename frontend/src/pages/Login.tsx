@@ -39,10 +39,7 @@ export function Login() {
     }
     return (
         <div id="page-login">
-            <header>
-                <h2>Tela de Login</h2>
-            </header>
-            <main>
+            <div>
                 <form onSubmit={handleSubmit}>
                     <span>Login:</span>
                     <input
@@ -62,7 +59,7 @@ export function Login() {
                         Acessar
                     </button>
                 </form>
-            </main>
+            </div>
         </div>
     )
 }

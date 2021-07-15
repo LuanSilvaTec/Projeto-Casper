@@ -1,0 +1,48 @@
+{
+  "description": "",
+  "language": "pt-br",
+  "shortDescription": "",
+  "examples": "",
+  "linkToDocs": "",
+  "displayName": "Casper-chatbot",
+  "disableInteractionLogs": false,
+  "disableStackdriverLogs": true,
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "project": "",
+    "welcomeIntentSignInRequired": false,
+    "startIntents": [],
+    "systemIntents": [],
+    "endIntentIds": [
+      "13522c86-2961-4bb8-8d09-ee19974d94b9"
+    ],
+    "voiceType": "VOICE_TYPE_UNSPECIFIED",
+    "capabilities": [],
+    "env": "",
+    "protocolVersion": "PROTOCOL_VERSION_UNSPECIFIED",
+    "autoPreviewEnabled": false,
+    "isDeviceAgent": false
+  },
+  "defaultTimezone": "America/Buenos_Aires",
+  "webhook": {
+    "url": "https://chatbot-test-luan.herokuapp.com/dialog",
+    "username": "",
+    "headers": {},
+    "available": true,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "mlMinConfidence": 0.3,
+  "supportedLanguages": [],
+  "enableOnePlatformApi": true,
+  "onePlatformApiVersion": "v2",
+  "secondaryKey": "fbb2ceb63d144ca38ff4284f8845ce44",
+  "analyzeQueryTextSentiment": false,
+  "enabledKnowledgeBaseNames": [],
+  "knowledgeServiceConfidenceAdjustment": 0.0,
+  "dialogBuilderMode": false,
+  "baseActionPackagesUrl": "",
+  "enableSpellCorrection": false
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "a33079e1-6318-49b9-a8d4-faf023f5e99b",
+    "data": [
+      {
+        "text": "Política",
+        "meta": "@noticias",
+        "alias": "noticias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "c5a6e215-7082-4c5b-b95d-9ca723a021d4",
+    "data": [
+      {
+        "text": "Politica",
+        "meta": "@noticias",
+        "alias": "noticias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

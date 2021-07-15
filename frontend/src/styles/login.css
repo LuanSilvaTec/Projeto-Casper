@@ -1,10 +1,45 @@
 #page-login{
     display:flex;
     height:100vh;
-    flex-direction:column;
     padding: 120px 80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
 }
+#page-login div{
+    background:#835afd;
+    padding: 120px 80px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#page-login span{
+    font-weight: bold;
+    padding: 0cm
+}
+#page-login button{
+    margin:auto;
+    margin-top:64px;
+    height:50px;
+    max-width:500px;
+    border-radius:8px;
+    font-weight: 500;
+    background:#372d55;
+    color:#FFF;
+    padding:0 32px;
+    
 
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:center;
+
+    cursor:pointer;
+    border:0;
+    transition: filter 0.2s;
+    
+}
 header{
     display:flex;
     align-items:center;
@@ -14,17 +49,6 @@ header{
 h2{
     font-size: 700;
     font-family: Roboto, Arial, Helvetica, sans-serif;
-}
-main{
-    background:#835afd;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding: 120px 80px;
-}
-form{
-    display:flex;
-    flex-direction:column;
 }
 input{
     height:50px;
@@ -52,6 +76,6 @@ button{
     border:0;
     transition: filter 0.2s;
 }
-button, input{
+input{
     width: 100%;
 }

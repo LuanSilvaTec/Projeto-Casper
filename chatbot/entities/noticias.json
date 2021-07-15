@@ -1,0 +1,9 @@
+{
+  "id": "4cf18a24-61e8-4193-bb9c-2d2d848fbf64",
+  "name": "noticias",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

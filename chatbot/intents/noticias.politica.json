@@ -1,0 +1,58 @@
+{
+  "id": "13522c86-2961-4bb8-8d09-ee19974d94b9",
+  "name": "noticias.politica",
+  "auto": true,
+  "contexts": [
+    "noticias"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "noticias",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ed7f67ca-1db7-4525-9afa-fcb9639714e9",
+          "name": "noticias",
+          "required": false,
+          "dataType": "@noticias",
+          "value": "$noticias",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

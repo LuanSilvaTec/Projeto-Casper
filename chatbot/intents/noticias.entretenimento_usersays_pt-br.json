@@ -1,0 +1,17 @@
+[
+  {
+    "id": "329c781b-169a-4c39-9c02-d730332e2156",
+    "data": [
+      {
+        "text": "Entretenimento",
+        "meta": "@noticias",
+        "alias": "noticias",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

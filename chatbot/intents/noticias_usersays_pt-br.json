@@ -1,0 +1,131 @@
+[
+  {
+    "id": "99bbfcfc-dc57-4ca3-8bbe-a7ea088eb208",
+    "data": [
+      {
+        "text": "Tranquilo quero ver as noticias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "aad80a9e-3e20-4da6-808c-5c3846c3d7d3",
+    "data": [
+      {
+        "text": "Tranquilo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "8e346d16-0a0e-458a-a741-2d05a3dc8848",
+    "data": [
+      {
+        "text": "Tudo ótimo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "48569dbf-0bd9-4302-9069-efed22c0e300",
+    "data": [
+      {
+        "text": "Tudo ",
+        "userDefined": false
+      },
+      {
+        "text": "bem",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "985e0dd7-74ef-4a7a-b526-6b00c01d4ede",
+    "data": [
+      {
+        "text": "Tudo ",
+        "userDefined": false
+      },
+      {
+        "text": "bem",
+        "userDefined": false
+      },
+      {
+        "text": ", quero ver as noticias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "cce3d6b6-731b-49a7-8a81-8fc48abe30b2",
+    "data": [
+      {
+        "text": "noticias quero ver",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "feeae3a0-d8d7-4df9-9b80-1f5d3d5d45ec",
+    "data": [
+      {
+        "text": "noticias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5dc086b9-8214-4b09-861c-bd037f60dc2f",
+    "data": [
+      {
+        "text": "quero ver noticias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "9c1f5fd5-9c18-400a-9eb7-9f261509a672",
+    "data": [
+      {
+        "text": "quero as noticias",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

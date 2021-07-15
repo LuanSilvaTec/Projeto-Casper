@@ -1,0 +1,56 @@
+{
+  "id": "547617f9-7102-41a3-9c05-a63f8d45a41e",
+  "name": "noticias",
+  "auto": true,
+  "contexts": [
+    "noticias"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "noticias",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "2",
+          "platform": "facebook",
+          "title": "Escolha um tema sobre notícias que você tem interesse.",
+          "replies": [
+            "Esportes",
+            "Política",
+            "Entretenimento",
+            "Famosos"
+          ],
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

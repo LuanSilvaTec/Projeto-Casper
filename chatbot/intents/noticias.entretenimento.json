@@ -1,0 +1,72 @@
+{
+  "id": "e5a1a877-a64e-4ed9-b312-19a476646257",
+  "name": "noticias.entretenimento",
+  "auto": true,
+  "contexts": [
+    "noticias"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "noticias",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "67b80f6c-ff36-48b1-bd63-b661ab5248bc",
+          "name": "noticias",
+          "required": false,
+          "dataType": "@noticias",
+          "value": "$noticias",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "platform": "facebook",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Você escolheu Entretenimento"
+          ],
+          "condition": ""
+        },
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "facebook": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [
+    {
+      "name": "noticias"
+    }
+  ],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
